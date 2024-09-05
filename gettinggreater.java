@@ -10,11 +10,11 @@ public class gettinggreater {
         System.out.print("Enter second character: ");
         char second = input.next().charAt(0);
 
-        int ch1 = first;
-        int ch2 = second;
-        int greaterascii = Math.max(first, second);
+        int ch1 = (int)first;
+        int ch2 = (int)second;
+        int greaterascii = Math.max(ch1, ch2);
         System.out.println("----------");
-        System.out.println("The character with greater value is: " + greaterascii );
+        System.out.println("The character with greater value is: " + (char)greaterascii );
         System.out.println("----------");
 
 
