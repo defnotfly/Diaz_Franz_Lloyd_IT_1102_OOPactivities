@@ -12,16 +12,9 @@ public class gettinggreater {
 
         int ch1 = first;
         int ch2 = second;
-
+        int greaterascii = Math.max(first, second);
         System.out.println("----------");
-        System.out.print("The character with greater value is: " );
-        if (ch1 > ch2) {
-            System.out.println(ch1);
-        }
-        else 
-        {
-            System.out.print(ch2);
-        }
+        System.out.println("The character with greater value is: " + greaterascii );
         System.out.println("----------");
 
 
