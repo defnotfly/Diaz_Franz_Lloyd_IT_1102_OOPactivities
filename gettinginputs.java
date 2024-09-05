@@ -16,6 +16,7 @@ class GetDetails {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the year: ");
         int year = input.nextInt();
+        input.nextLine();
         System.out.print("Enter the genre: ");
         String genre = input.nextLine();
         System.out.print("Enter the album: ");
